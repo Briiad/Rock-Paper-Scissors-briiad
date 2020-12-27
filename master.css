@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section, #game {
+    width: 100%;
+    height: 100vh;
+    background-color: #020025;
+}
+
+.main-title {
+    color: rgb(228, 228, 228);
+    text-align: center;
+    padding: 1.5em;
+}
+
+.match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.winner {
+    color: rgb(228, 228, 228);
+    text-align: center;
+    margin: 2em;
+}
+
+.hands, .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-hand {
+    transform: rotateY(180deg);
+}
+
+.options button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    background: #009c3e;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.options button:hover{
+    cursor: pointer;
+    background:#00c44e;
+}
+
+@media (max-width: 500px){
+
+    .hands img{
+        width: 220px;
+        height: 200px;
+    }
+
+    .options button{
+        width: 70px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
