@@ -1,2 +1,5 @@
 # Rock-Paper-Scissors-briiad
-Simple newbie project
+Rock Paper Scissors Game with Vanilla Javascript
+
+
+Reference : DevEd (Youtube)
